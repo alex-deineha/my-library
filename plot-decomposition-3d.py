@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 from sklearn.decomposition import PCA
 
 all_data_sample = all_data_sample.sample(2500)
